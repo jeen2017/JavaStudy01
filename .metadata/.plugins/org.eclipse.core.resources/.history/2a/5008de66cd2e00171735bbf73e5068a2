@@ -1,0 +1,30 @@
+package com.bit.func;
+
+public class FuncEx {
+
+	public static void main(String[] args) {
+
+		String[] strSharps = new String[3];
+		
+		strSharps[0] = "사각형";
+		strSharps[1] = "삼각형";
+		strSharps[2] = "원";
+		
+		rotate(strSharps[0]) ;
+		playMove(strSharps[0]);
+		
+		
+	}
+	
+	// 회전을 실행하는 함수
+	static void rotate(String strSharp){
+		System.out.println(strSharp + "를 회전합니다");
+		
+	}
+	
+	static void playMove(String strSharp){
+		System.out.println(strSharp + "를 움직입니다");
+		
+	}
+
+}

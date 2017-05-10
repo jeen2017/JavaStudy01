@@ -1,0 +1,41 @@
+package com.bit.grade.exec;
+
+import java.util.ArrayList;
+import com.bit.grade.vo.GradeVO;
+
+public class GradeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<GradeVO> gradeVOs = new ArrayList<GradeVO>();
+		
+		for(int i = 0 ; i<50; i++){
+			
+			GradeVO vo = new GradeVO();
+			vo.setIntNum(i+1); // 학번지정
+			
+//			for(int j = 0 ; j < vo.getIntGrade().length;j++){
+//			}
+			
+			// intGrade 배열을 it 배열에 복사
+			int[] it = vo.getIntGrade();
+			for(int j = 0 ; j < it.length ;j++){
+				it[j] = (int)(Math.random()*(100-50)+50);
+				vo.setIntGrade(it);
+			}
+		}
+		
+		for(GradeVO v : gradeVOs){
+			
+			System.out.print(v.getIntNum() + "\t");
+			for(int i : v.getIntGrade()) {
+				System.out.print(i + "\t");	
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}

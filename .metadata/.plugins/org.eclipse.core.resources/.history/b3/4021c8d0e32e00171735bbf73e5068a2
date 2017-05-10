@@ -1,0 +1,5 @@
+package com.bit.grade.dto;
+
+public class GradeDTO {
+
+}

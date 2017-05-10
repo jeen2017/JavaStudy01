@@ -1,0 +1,36 @@
+package com.bit.classes;
+
+public class GradeVO2 extends GradeVO{
+	
+	public void total(){
+
+//		int t = getIntKor();
+//		t += getIntEng();
+//		t += getIntMath();
+//		setIntTotal(t);
+		
+		intTotal = intKor ;
+		intTotal += intEng ;
+		intTotal += intMath ;
+		
+	}
+	
+	
+	public void gradeList(GradeVO[] vOS){
+		System.out.println("점수 확인");
+		for(GradeVO v : vOS){
+			System.out.print(v.getIntNum());
+			System.out.print("\t");
+
+			System.out.print(v.getIntKor());
+			System.out.print("\t");
+
+			System.out.print(v.getIntEng());
+			System.out.print("\t");
+
+			System.out.print(v.getIntMath());
+			System.out.println();
+		}
+	}
+
+}

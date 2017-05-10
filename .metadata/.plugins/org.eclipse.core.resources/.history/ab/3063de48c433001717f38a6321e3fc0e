@@ -1,0 +1,32 @@
+package com.bit.arraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArrayWord {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> words = new ArrayList<String>();
+		
+		words.add("television");
+		words.add("computer");
+		words.add("yesterday");
+		words.add("tomorrow");
+		words.add("christmas");
+		words.add("korea");
+
+		words.add("public");
+		words.add("private");
+		words.add("protected");
+		words.add("class");
+		words.add("package");
+		
+		Collections.shuffle(words);
+		String strWord = words.get(0);
+		
+		
+		
+	}
+
+}

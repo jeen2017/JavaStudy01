@@ -1,0 +1,20 @@
+package com.bit.oop4.exec;
+
+public class Exec03 {
+
+	public static void main(String[] args) {
+
+		int num1 = 10;
+		int num2 = 20;
+		
+		System.out.println("num1:" + num1);
+		System.out.println("num2:" + num2);
+		
+		num2 = num1;
+		num2 = 100;
+		
+		System.out.println("num1:" + num1);
+		
+	}
+
+}

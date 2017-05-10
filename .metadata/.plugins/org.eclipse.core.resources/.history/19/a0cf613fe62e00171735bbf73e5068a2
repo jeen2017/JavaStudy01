@@ -1,0 +1,79 @@
+package com.bit.grade.exec;
+
+import java.util.ArrayList;
+
+import com.bit.grade.dto.GradeDTO;
+import com.bit.grade.vo.GradeVO;
+
+public class GradeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		ArrayList<GradeVO> gradeVOs = new ArrayList<GradeVO>();
+		
+		GradeDTO dto = new GradeDTO();
+
+		// 점수생성
+		dto.gradeMake();
+		
+		//dto.setVOs(gradeVOs); // dto에 있는 ArrayList에 값을 복사해줌
+		System.out.println("점수 확인");
+		dto.gradeVOListView(); // 점수리스트 확인
+		// 총점과 평균이 계산되기 이전 점수리스트
+		
+		dto.gradeTotal(); // 총점과 평균 계산
+		System.out.println("총점과 평균 확인");
+		dto.gradeVOListView();
+		// 총점과 평균이 계산된 후 점수 리스트
+		
+		// 학생점수 중에서 총점 최고점인 학생의 성적리스트와
+		//                 총점 최저점인 학생의 성적리스트를 찾아 보이시
+		// 7 90 90 90 90 90 90  999 90
+		
+		int intMax = 0;
+		int intMaxNum = 0 ;
+		
+		int intMin = 990;
+		int intMinNum = 0;
+		for(GradeVO v : gradeVOs) {
+			int intTotal = v.getIntTotal(); // 총점 읽기
+			// 최고점 찾기
+			if(intMax < intTotal) { // intMax와 총점 비교
+				intMax = intTotal ; // 총점의 최고점을 찾기
+				intMaxNum = v.getIntNum();
+			}
+			// 최저점 찾기
+			if(intMin > intTotal){
+				intMin = intTotal;
+				intMinNum = v.getIntNum();
+			}
+		}
+		
+		for(int i = 0 ; i< gradeVOs.size();i++){
+			int intTotal = gradeVOs.get(i).getIntTotal();
+			if(intMax < intTotal) {
+				intMaxNum = i;
+			}
+		}
+		
+//		System.out.println(intMax);
+		// 최고점 학생의 성적 리스트
+		System.out.println("최고점 학생의 성적리스트");
+		GradeVO v1 = gradeVOs.get(intMaxNum - 1);
+		
+		System.out.print(v1.getIntNum() + "\t");
+		for(int i : v1.getIntGrade()) {
+			System.out.print(i + "\t");	
+		}
+		System.out.print(v1.getIntTotal()+"\t");
+		System.out.println(v1.getIntAvg());
+		
+		
+		
+		
+
+	
+	}
+
+}

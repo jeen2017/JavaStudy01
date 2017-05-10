@@ -1,0 +1,10 @@
+package com.bit.arraylist;
+
+public class ArrayWord {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

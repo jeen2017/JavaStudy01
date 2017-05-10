@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bit.classes.MyClass"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="java.net.Inet4Address"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.exec.params.ParamsMulty"/>
+<fullyQualifiedTypeName name="com.bit.grades.GradesProcess"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="com.bit.classes.Mutiple"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.multi.MultiButtonUI"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.MarginBorder"/>
+<fullyQualifiedTypeName name="com.bit.vo.Book"/>
+<fullyQualifiedTypeName name="com.bit.classes.RecClass"/>
+<fullyQualifiedTypeName name="com.bit.classes.Circle"/>
+<fullyQualifiedTypeName name="com.bit.classes.TriAngle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.bit.classes.Ameba"/>
+<fullyQualifiedTypeName name="com.bit.grade.vo.GradeVO"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>

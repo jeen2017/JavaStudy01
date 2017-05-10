@@ -1,0 +1,22 @@
+package com.bit.arrays;
+
+public class Array01 {
+
+	public static void main(String[] args) {
+
+		int[] intNum = new int[10];
+		int[] intKor = new int[10];
+		int[] intEng = new int[10];
+		
+		for(int i = 0 ; i < intNum.length; i++){
+	
+			intNum[i] = i+1 ; // 번호를 순서대로 할당
+			intKor[i] = (int)(Math.random()*(100-50)+50);
+			intEng[i] = (int)(Math.random()*(100-50)+50);
+			
+			
+		}
+
+	
+	}
+}

@@ -1,0 +1,12 @@
+package com.bit.oop4.exec;
+
+public class Exec02 {
+
+	public static void main(String[] args) {
+
+		BookDTO bookDTO = new BookDTO();
+		
+		
+	}
+
+}

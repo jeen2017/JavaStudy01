@@ -1,0 +1,36 @@
+package com.bit.grade.dto;
+
+import java.util.ArrayList;
+
+import com.bit.grade.vo.GradeVO;
+
+public class GradeDTO {
+	
+	private ArrayList<GradeVO> VOs = new ArrayList<GradeVO>();
+
+	
+	public void gradeVOListView(){
+		System.out.println("총점과 평균 확인");
+		for(GradeVO v : VOs){
+			
+			System.out.print(v.getIntNum() + "\t");
+			for(int i : v.getIntGrade()) {
+				System.out.print(i + "\t");	
+			}
+			System.out.print(v.getIntTotal()+"\t");
+			System.out.println(v.getIntAvg());
+		}
+		
+	}
+	
+	
+	public ArrayList<GradeVO> getVOs() {
+		return VOs;
+	}
+
+	public void setVOs(ArrayList<GradeVO> vOs) {
+		VOs = vOs;
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+# 나의 첫 프로젝트
+
+## 2017-05-08
+
+### 깃 허브를 통해 프로젝트를 공유 합니다
+### vi 에디터를 이용해서 편집합니다
+
+
+echo "# TestP" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/callor/TestP.git
+git push -u origin master

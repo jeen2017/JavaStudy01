@@ -1,0 +1,16 @@
+package com.bit.classes;
+
+public class ClassEx01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// NewClass 형태의 Object 영역을 예약
+		//                  사용할 준비
+		//                      |-> 생성자
+		NewClass newClass01 = new NewClass();
+		
+		NewClass newClass = new NewClass("삼각형");
+	}
+
+}

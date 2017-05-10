@@ -1,0 +1,10 @@
+package com.bit.classes;
+
+public class RecClass {
+
+	public void rotate(){
+		System.out.println("사각형이 회전합니다");
+	}
+	
+	
+}

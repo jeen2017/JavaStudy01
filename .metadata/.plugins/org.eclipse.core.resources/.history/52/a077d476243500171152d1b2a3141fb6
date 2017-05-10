@@ -1,0 +1,20 @@
+package com.bit.oop4.exec;
+
+import com.bit.oop4.vo.BookVO;
+
+public class Exec01 {
+
+	public static void main(String[] args) {
+
+		BookVO bookVO = new BookVO();  // Object생성
+		
+		bookVO.setStrTitle("자바의정석");
+		bookVO.setStrAuthor("남궁성");
+		bookVO.setIntPrice(20000);
+		
+		System.out.println(bookVO.toString());
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.bit.grade.dto;
+
+import java.util.ArrayList;
+
+import com.bit.grade.vo.GradeVO;
+
+public class GradeDTO {
+	
+	private ArrayList<GradeVO> VOs = new ArrayList<GradeVO>();
+
+	public ArrayList<GradeVO> getVOs() {
+		return VOs;
+	}
+
+	public void setVOs(ArrayList<GradeVO> vOs) {
+		VOs = vOs;
+	}
+	
+
+}

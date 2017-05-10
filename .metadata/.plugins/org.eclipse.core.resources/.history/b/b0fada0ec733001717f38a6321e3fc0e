@@ -1,0 +1,13 @@
+package com.bit.arraylist;
+
+public class ExecWord {
+
+	public static void main(String[] args) {
+
+		ArrayWord arrayWord = new ArrayWord();
+		arrayWord.viewWord();
+		
+		
+	}
+
+}

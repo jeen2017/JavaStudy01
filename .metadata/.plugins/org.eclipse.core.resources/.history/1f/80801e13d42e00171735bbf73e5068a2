@@ -1,0 +1,12 @@
+package com.bit.classes;
+
+public class NewClass {
+
+	private String strName ;
+	
+	// 자동으로 생성되는 생성자 메서드
+	public NewClass(String strName){
+		
+	}
+	
+}

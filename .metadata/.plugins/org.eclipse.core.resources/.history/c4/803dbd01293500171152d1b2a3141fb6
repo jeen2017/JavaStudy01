@@ -1,0 +1,29 @@
+package com.bit.oop4.exec;
+
+import com.bit.oop4.vo.BookVO;
+
+public class Exec04 {
+
+	public static void main(String[] args) {
+
+		BookVO vo = new BookVO();
+		vo.setStrTitle("자바야놀자");
+		vo.setStrAuthor("남궁성");
+		vo.setIntPrice(30000);
+		
+		System.out.println("첫번째:" + vo.toString());
+		setRef(vo);
+		
+		int num1 = 30;
+		System.out.println("num1:" + num1);
+		
+	}
+	
+	static void setRef(BookVO vo1){
+		vo1.setStrTitle("윈도우세상");
+	}
+	static void setInt(int num){
+		num = 100;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.bit.grade.vo;
+
+public class GradeVO {
+
+}

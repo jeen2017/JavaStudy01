@@ -1,0 +1,15 @@
+package com.bit.classes;
+
+public class GradeVO {
+	
+	private int intNum;
+	private String strName;
+	private int intKor;
+	private int intEng;
+	private int intMath;
+	
+	private int intTotal;
+	private int intAvg;
+	private int intRank;
+	
+}

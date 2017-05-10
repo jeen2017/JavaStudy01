@@ -1,0 +1,10 @@
+package com.bit.classes;
+
+public class NewClass01 {
+	
+	String strName;
+	public NewClass01(String strName){
+		this.strName = strName;
+	}
+
+}

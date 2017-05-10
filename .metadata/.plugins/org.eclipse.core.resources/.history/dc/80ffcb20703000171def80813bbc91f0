@@ -1,0 +1,9 @@
+package com.bit.func_class.classes;
+
+public class SharpClass {
+
+	public String strSharp ;
+	public void rotate(){
+		System.out.println(strSharp+"를 회전합니다");
+	}
+}

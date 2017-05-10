@@ -1,0 +1,17 @@
+package com.bit.classes;
+
+public class ClassEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		RecClass recClass = new RecClass();
+		TriAngle triAngle = new TriAngle();
+		Circle circle = new Circle();
+		
+		recClass.strSharp = "사각형";
+		recClass.rotate();
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.bit.classes;
+
+public class GradeVO2 extends GradeVO{
+	
+	
+	
+	public void total(){
+		intTotal = intKor ;
+		intTotal += intEng ;
+		intTotal += intMath ;
+		
+	}
+
+}

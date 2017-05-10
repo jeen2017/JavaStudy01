@@ -1,0 +1,5 @@
+package com.bit.classes;
+
+public class GradeVO2 extends GradeVO{
+
+}

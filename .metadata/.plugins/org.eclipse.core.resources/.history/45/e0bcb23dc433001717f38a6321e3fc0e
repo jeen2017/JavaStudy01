@@ -1,0 +1,12 @@
+package com.bit.arraylist;
+
+public class ArrayWord {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> words = new ArrayList<String>();
+		
+		
+	}
+
+}

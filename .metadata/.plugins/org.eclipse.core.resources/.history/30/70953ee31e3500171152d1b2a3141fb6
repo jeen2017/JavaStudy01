@@ -1,0 +1,14 @@
+package com.bit.oop4.exec;
+
+import com.bit.oop4.vo.BookVO;
+
+public class Exec01 {
+
+	public static void main(String[] args) {
+
+		BookVO bookVO = new BookVO();
+		
+		
+	}
+
+}
